@@ -22,21 +22,28 @@ Hugging Face Transformers
 Installation
 Clone the repository to your local machine:
 
-bash
+```bash
 Copy code
 git clone https://github.com/yourgithubusername/intelligent-doc-chatbot.git
 cd intelligent-doc-chatbot
-Install the necessary Python packages:
+```
 
-Copy code
+### Install the necessary Python packages:
+
+```bash
 pip install -r requirements.txt
-Running the Application
+```
+
+### Running the Application
+
 Start the chatbot interface with:
 
-arduino
-Copy code
+```bash
 chainlit run model.py -w
-Usage
+```
+
+### Usage
+
 After starting the application, navigate to http://localhost:80 (or the port you've configured) in your web browser. You'll be greeted with the chat interface where you can start interacting with your documents immediately.
 
 ## Future Enhancements
